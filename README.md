@@ -1,2 +1,2 @@
-# Projeto_curso_visualg
-Projeto criado para escrever portugol na ferramenta visualg
+# Portifólio
+Projeto criado para mostrar meus conhecimentos
