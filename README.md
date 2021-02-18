@@ -1,2 +1,2 @@
 # Portifólio
-Projeto criado para mostrar meus conhecimentos
+Portifólio dos meu projeto pessoal
