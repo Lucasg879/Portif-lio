@@ -133,17 +133,24 @@ hr{
 	align-items: center;
 }
 #ctn_box{
+	width:100%;
+	height:auto;
 	display: flex;
-	flex-direction: row;
+	flex-flow:row wrap;
+	justify-content:space-evenly;
 
 }
 .content{
-	margin:50px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	text-align: center;
+	flex-flow:row wrap;
 	margin-bottom:5px;
-	width: 400px;
+	width:400px;
 	height:400px;
-	border:10px solid black;
-	border-radius:5px;
+	margin-bottom:45px;
+	
 }
 #img_box1{
 	height:100%;
@@ -155,14 +162,10 @@ hr{
 	width:100%;
 	object-fit: cover;
 }
-#box3{
-	background-image:url(gesso.jpg);
-	/*background-position:center top;*/
-	background-size:all;
-	background-repeat: no-repeat;
-	object-fit:cover;
-	background-origin:padding-box;
-	background-clip: padding-box;	
+#img_box3{
+	height:100%;
+	width:100%;
+	object-fit: cover;
 }
 .ctn_lgnd{
 	width:100%;
@@ -188,4 +191,8 @@ hr{
 	text-align: center;
 	justify-content: center;
 	font-family:'Fenix', serif;
+}
+.img_serv{
+	border:10px solid black;
+	border-radius:5px;
 }

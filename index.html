@@ -14,60 +14,60 @@
 	</head>
 	<body>
 		<!--Barra de Navegação -->
-		<header class="n-container">
-			<a href="#ctn_slider" class="logo"><h1>ARTES DECOR EM DESIGN</h1></a>
-			<nav class="n-container-dire">
-				<a href="#ctn_ttl_ctn_box" class="logo2" id="l2" onclick="descer()">Serviços</a>
-				<a href="#rodapé" class="logo3" id="l3">Rodapé</a>
-				<a href="#rodapé" class="logo4">Contato </a>
-				<!--Redes Sociais da barra de navegação-->
-				<a href="https://www.instagram.com/renato.caetano.1441/?hl=pt-br"><img src="insta_logo.png" style="width: 28px; height: 28px;"></a>
-				<a href=""><img src="./telefone.png" alt="Gregor Cresnar" style="width: 28px; height: 28px;"></a>
-			</nav>
-		</header>
+		<!-- <div id="n-bar"> -->
+			<header>
+				<a href="#ctn_slider" class="logo"><h1>ARTES DECOR EM DESIGN</h1></a>
+				<nav class="" id="navbar">
+					<a href="#ctn_ttl_ctn_box" class="logo2" id="l2" onclick="descer()">Serviços</a>
+					<a href="#rodapé" class="logo3" id="l3">Rodapé</a>
+					<a href="#rodapé" class="logo4">Contato </a>
+					<!--Redes Sociais da barra de navegação-->
+					<a href="https://www.instagram.com/renato.caetano.1441/?hl=pt-br"><img src="insta_logo.png" style="width: 28px; height: 28px;"></a>
+					<a href=""><img src="./telefone.png" alt="" style="height: 28px; width: 28px;"></a>
+				</nav>
+			</header>
+		
+		<div id="sup"></div>
+		<p id="teste" style="color: white;">
+		</p>
+		<!--Divisão do carrossel -->
 
-		<main>
-			<!--Divisão do carrossel -->
-			<div id="ctn_ttl_slider">
-				<div id="ctn_slider">
-				</div>
+		<div id="ctn_slider">
+		</div>
+		
+		<!--Divisão de pequenas caixas-->
+
+		<div id="ctn_ttl_ctn_box">
+			<h1 class="ttl_ctn_box"> Varíedades de serviços para sua empresa ou residencia ficar mais bonita</h1>
+		</div>
+			<div id="ctn_box">
+				<!--Primeira Caixa-->
+				<section class="content" id="box1"><img src="./parede1.jpg" alt="" class="img_serv" id="img_box1"><figcaption>Pintura</figcaption>
+				</section>
+				<!--Segunda Caixa-->
+				<section class="content" id="box2"><img src="./textura.jpg" alt="" class="img_serv" id="img_box2"><figcaption>Textura</figcaption>
+				</section>
+				<!--Terceira caixa-->
+				<section class="content" id="box3"><img src="./gesso.jpg" alt="" class="img_serv" id="img_box3"><figcaption>Sanca</figcaption>
+				</section>
 			</div>
-			
-			<!--Divisão de pequenas caixas--> 
-			<section>
-				<div id="ctn_ttl_ctn_box">
-					<h1 class="ttl_ctn_box"> Varíedades de serviços para sua empresa ou residencia ficar mais bonita</h1>
-				</div>
-		
-				<div id="ctn_box">
+		<!-- <div class="ctn_lgnd">
+			<p class="lgnd" style="width:33%;">pintura
+			</p>
+			<p class="lgnd" style="width:33%;">textura
+			</p>
+			<p class="lgnd" style="width:33%;">gesso
+			</p>
+		</div> -->
 
-					<!--Primeira Caixa-->
-					<section class="content" id="box1"><img src="parede1.jpg" alt="" id="img_box1"></section>
-					
-					<!--Segunda Caixa-->
-					<section class="content" id="box2"><img src="textura.jpg" alt="" id="img_box2"></section>
-					
-					<!--Terceira caixa-->
-					<section class="content" id="box3"><img src="" alt=""></section>	
-				</div>
-		
-				<div class="ctn_lgnd">
-					<p class="lgnd" style="width:33%;">pintura</p>
-					<p class="lgnd" style="width:33%;">textura</p>
-					<p class="lgnd" style="width:33%;">gesso</p>
-				</div>
-		
-				<div class="ctn_ctn_sobre">
-					<div class="ctn_sobre"><h1 class="ttl_sobre">Sobre nós</h1><br><p class="p_sobre">Somos uma empresa que visa o conforto do cliente, com sua casa ou empressa reformada com qualidade levando conforto ao cliente</p></div>
-				</div>
-			</section>
-
-			<!--Botão flutuante-->
-			<button id="btnTop" onclick="backTop()">clique aqui</button>
-	
-		</main>
-
+		<div class="ctn_ctn_sobre">
+			<div class="ctn_sobre"><h1 class="ttl_sobre">Sobre nós</h1><br><p class="p_sobre">Somos uma empresa que visa o conforto do cliente, com sua casa ou empressa reformada com qualidade levando conforto ao cliente</p></div>
+		</div>
+		<!--Botão flutuante-->
+		<button id="btnTop" onclick="backTop()">clique aqui
+		</button>
 		<!--Rodapé-->
+
 		<footer id="rodapé">
 			<div class="div1">
 				<h2 class="ttl_sobre_nos">Sobre nós</h1>
@@ -88,7 +88,7 @@
 			<div class="div3">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, beatae fuga, neque ducimus veritatis dolorem ipsum suscipit error expedita culpa ratione temporibus in aliquid, facilis eaque! Modi iusto tempora unde.
 			</div>
-			
+
 		</footer>
 		<script type="text/javascript" src="bec-end.js"></script>
 	</body>
